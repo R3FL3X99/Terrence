@@ -37,6 +37,14 @@ function Projects() {
               </ul>
               <div className="mt-4 flex gap-2 max-[420px]:flex-col">
                 <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex min-h-10 items-center justify-center rounded-lg border border-slate-300 bg-white/70 px-3 py-2 text-sm font-medium text-slate-900 transition hover:border-slate-500 max-[420px]:w-full dark:border-white/20 dark:bg-white/5 dark:text-slate-100 dark:hover:border-white/40"
+                >
+                  GitHub
+                </a>
+                <a
                   href={project.live}
                   target="_blank"
                   rel="noreferrer"
