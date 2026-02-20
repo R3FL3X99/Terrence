@@ -89,6 +89,15 @@ export const projects = [
     live: "https://peepers.vercel.app/",
     featured: false,
   },
+  {
+    title: "Coinscope",
+    summary: "Crypto-focused project exploring market data and modern dashboard UI patterns.",
+    image: "/assets/coinscope.png",
+    tags: ["React", "Crypto", "Dashboard"],
+    github: "https://github.com/R3FL3X99/coinscope",
+    live: "https://coinscope-ivory.vercel.app",
+    featured: false,
+  },
 ];
 
 export const experience = [
